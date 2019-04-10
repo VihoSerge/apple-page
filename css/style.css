@@ -1,0 +1,253 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url(../fonts/LucidaGrande.ttf);
+}
+
+body,
+h1,
+h2,
+li,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Grande', Helvetica, Arial, Verdana, sans-serif;;
+}
+
+ul, li {
+  position: relative;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  color: #6e6e6e;
+  font-size: 10px;
+  height: 90px;
+  width: 100%;
+}
+
+footer .wrapper {
+  height: 90px;
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 980px;
+}
+
+footer a {
+  color: #08c;
+}
+
+footer p {
+  margin: 0 0 14px 0;
+}
+
+#brand a span{
+  width: 100%;
+  display: block;
+  margin: 3px auto;
+  height: 30px;
+  position: absolute;
+  background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% 0px;
+}
+
+#main-nav {
+  background: #707070;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  border-radius: 4px;
+  display: flex;
+  height: 36px;
+  left: 12px;
+  margin: 0 auto;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 980px;
+}
+
+
+#main-nav ul {
+  display: table;
+  float: left;
+  height: 36px;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+  zoom: 1;
+}
+
+#main-nav ul li {
+  border-right: 1.5px solid rgba(68, 68, 68, 0.5);
+  color: #fff;
+  cursor: pointer;
+  display: table-cell;
+  font-size: 12px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+#main-nav ul li:hover {
+  background-image: radial-gradient(circle, #242528, #323437, #424346, #525356, #626466);
+}
+
+#main-nav ul li a{
+  color: #fff;
+}
+
+#main-nav ul li a:hover{
+  text-decoration: none;
+}
+
+#main-nav #navbar {
+  width: 85%;
+}
+
+#main-nav #search {
+  display: flex;
+  position: relative;
+  width: 15%;
+}
+
+#search .search-icon {
+  left: 28px;
+  position: absolute;
+  top: 14px;
+}
+
+#input-search {
+  background-color: transparent;
+  border: 1px solid #999;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  margin: auto;
+  padding-left: 23px;
+  width: 106px;
+}
+#main {
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
+  height: 545px;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#main article {
+  width: 60%;
+  margin: auto;
+}
+
+#main header {
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 150px;
+  text-align: center;
+}
+
+#main header h1 a {
+  color: #fff;
+  font-weight: 100;
+}
+
+#main header h2 a,
+#main header p a {
+  color: #fff;
+  font-weight: 300;
+}
+
+#main header h1 a:hover,
+#main header h2 a:hover {
+  text-decoration: none;
+}
+
+#main header h1 a {
+  font-size: 3.8rem;
+}
+
+#main header h2 a {
+  font-size: 1.8rem;
+}
+
+#main header p {
+  margin-top: 15px;
+}
+
+#main header p a {
+  font-size: 1.4rem;
+}
+
+#footer-nav li {
+  border-right: 1px solid #ddd;
+  padding: 2px 1px;
+}
+
+#footer-nav .lang-select {
+  border: 0;
+  position: absolute;
+  right: -24px;
+  top: -4px;
+}
+
+.footer-left,
+.footer-right {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  width: 25%;
+}
+
+.search-icon {
+  color: #fff;
+  font-size: 9px;
+}
